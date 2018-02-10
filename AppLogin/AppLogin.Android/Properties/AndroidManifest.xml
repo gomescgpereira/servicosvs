@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="br.gomesconsultor.AppLogin" android:installLocation="internalOnly">
+	<uses-sdk android:minSdkVersion="15" />
+	<uses-pemission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-pemission>
+	<uses-pemission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-pemission>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="AppLogin.Android" android:icon="@drawable/iconefacebook">
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAqgnxzV0vXlHGQvMy56i2Vhj-WYUn5bjo" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+	</application>
+</manifest>

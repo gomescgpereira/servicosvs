@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLogin.View.IncludeSolicitante" Title="Entrada de Solicitação">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout  >
+                <Label Text="Solicitante:" />
+                <Entry Text="" x:Name="txtNome" />
+                <Label Text="Email:" />
+                <Entry   x:Name="txtemail"/>
+                <Label Text="Posição: "  />
+                <Entry   x:Name="txtposicao"/>
+                <Label Text="Descrição Curta Serviço: "  />
+                <Entry   x:Name="txtdescricao"/>
+                <Button Text="Salvar Solititação" x:Name="btnSalvar" />
+
+            </StackLayout>
+        </StackLayout>
+        </ContentPage.Content>
+</ContentPage>

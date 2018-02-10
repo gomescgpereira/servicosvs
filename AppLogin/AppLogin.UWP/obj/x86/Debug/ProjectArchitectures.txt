@@ -1,0 +1,2 @@
+C:\Users\eduardo\source\repos\AppLogin\AppLogin\AppLogin.UWP\AppLogin.UWP.csproj;x86
+C:\Users\eduardo\source\repos\AppLogin\AppLogin\AppLogin\AppLogin.csproj;neutral

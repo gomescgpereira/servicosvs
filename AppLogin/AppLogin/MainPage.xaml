@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppLogin"
+             x:Class="AppLogin.MainPage">
+    <ContentPage.Content>
+        <Button HorizontalOptions="Center" VerticalOptions="Center" 
+                BorderColor="Transparent"
+                BackgroundColor="Transparent"
+                Scale="0.5"  
+                 x:Name="btnLogar" Image="iconefacebook.png" /> 
+    </ContentPage.Content>
+</ContentPage>
